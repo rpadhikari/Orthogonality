@@ -7,6 +7,6 @@ int main() {
   int p=3000;
   double a=-1.0;
   double b=1.0;
-  printf("%d %d %10.5lf\n", m, n, simp(a, b, p, m, n));
+  printf("%4d %4d %15.8lf\n", m, n, simp(a, b, p, m, n));
 }
 
