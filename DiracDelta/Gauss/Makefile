@@ -1,7 +1,7 @@
 CC=gcc -c
 LD=gcc
-SRC=fact.c fx.c simp.c main.c
-OBJ=fact.o fx.o simp.o main.o
+SRC=fx.c simp.c main.c
+OBJ=fx.o simp.o main.o
 delta:
 	$(CC) $(SRC)
 	$(LD) $(OBJ) -o delta.x -lm
