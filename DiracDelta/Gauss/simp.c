@@ -11,15 +11,15 @@ double simp(double a, double b, int n, int p) {
   double sum3=0.0;
   double h, x;
   h=(b-a)/(double)n;
-  for(i=1;i<=n-2;i=(i+3)){
+  for(i=1; i<=n-2; i=(i+3)) {
     x=a+(double)i*h;
     sum1+=fx(p,x);
     }
-  for(i=2;i<=n-1;i=(i+3)){
+  for(i=2; i<=n-1; i=(i+3)) {
     x=a+(double)i*h;
     sum2+=fx(p,x);
   }
-  for(i=3;i<=n-3;i=(i+3)){
+  for(i=3; i<=n-3; i=(i+3)) {
     x=a+(double)i*h;
     sum3+=fx(p,x);
   }
